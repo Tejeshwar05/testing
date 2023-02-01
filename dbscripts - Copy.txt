@@ -1,2 +1,3 @@
 create schema db.second;
-create table db.second.first(name varchar(50));
+create or replace schema;
+create or replace table db.second.first(name varchar(50));
